@@ -243,6 +243,7 @@ export interface ConfigurationParameters {
     connectionRecoveryMinInterval?: number;
     contactTransport?: string;
     displayName?: string;
+    dtmfType?: 'info' | '2833';
     extraSupported?: string[];
     forceRport?: boolean;
     hackAllowUnregisteredOptionTags?: boolean;
